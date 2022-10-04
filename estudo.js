@@ -1,8 +1,7 @@
 // alert("Oi! Eu sou o Alert");
 // document.write("Estou na página.");
 // console.log("Eu estou no console.");
-let tabuada = 37;
-
+let tabuada = 5;
 function alo(){
     document.write("<h1>Tabuada do " + tabuada + "</h1><br>")
     document.write(tabuada + " x 1 =" + (tabuada*1)+"<br>");
@@ -15,5 +14,20 @@ function alo(){
     document.write(tabuada + " x 8 =" + (tabuada*8)+"<br>");
     document.write(tabuada + " x 9 =" + (tabuada*9)+"<br>");
     document.write(tabuada + " x 10 =" + (tabuada*10));
-    
+}
+// for(inicio, validaçao, manutençao)
+function escreva (){
+  for(var i=1; i <= 10; i++){
+    for(var j = 1; j <=10; j++){
+        document.write(i + " x " + j +  " = " + (j*i)+"<br>");
+    }
+    document.write("<br>");
+  }
+
+}
+
+function quadrado(){
+    for(var i =; i < 11; i++){
+        document.write("0 quadrado de " + i + " é " (i*i)+ "<br>");
+    }
 }
