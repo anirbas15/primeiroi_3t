@@ -19,3 +19,11 @@
     padding: 4px;
     margin: 2px;
 }
+.spMes {
+    color: white;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: purple;
+    text-align: start;
+    text-align: center;
+}
