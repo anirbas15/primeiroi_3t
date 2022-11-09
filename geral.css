@@ -1,29 +1,84 @@
-.calculadora {
-    background: rgb(122, 5, 126);
+.calculadora{
+    background:rgb(159, 192, 255) ;
     width: 200px;
     padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(0, 102, 255);
+
+}
+.calculadoraRaiz{
+    background:rgb(245, 8, 8) ;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(228, 238, 84);
+
+}
+
+.calculadoraRaiz input {
+    background: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.calculadora input {
+    background: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.calculadora input:focus{
+    background: rgb(130, 211, 238);
+    color: purple;
+}
+.calculadoraRaiz input:focus{
+    background: rgb(238, 130, 215);
+    color: rgb(128, 0, 0);
 }
 #btnCalc {
-    background: rgb(235, 49, 189);
-    color: white;
+    background: purple;
+    color: rgb(238, 250, 255);
     padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.calculadoraRaiz button {
+    background: purple;
+    color: rgb(238, 250, 255);
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 #btnCalc:hover {
-    background: rgb(185, 28, 75);
-    color: black;
+    background: rgb(71, 3, 71);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.calculadoraRaiz button:hover {
+    background: rgb(71, 3, 71);
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
 .spResultado{
-    background:rgb(250, 140, 164);
-    color:rgb(157, 14, 185);
+    background: rgb(102, 10, 102);
+    color: rgb(240, 200, 240);
     padding: 4px;
     margin: 2px;
+    border-radius: 10px;
 }
 .spMes {
-    color: white;
+    color:rgb(71, 3, 71);
     border-width: 1px;
     border-style: dashed;
-    border-color: purple;
+    border-color: silver;
     text-align: start;
-    text-align: center;
+}
+.calcF {
+    display: none;
+}
+#calcFin{
+    display: none;
+}
+#calcFin:checked + .calculadora .calcF {
+    display: block;
 }
